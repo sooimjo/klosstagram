@@ -1,0 +1,34 @@
+@font-face {
+  font-family: midevil;
+  src: url(./fette_unz_fraktur/FetteUNZFraktur.ttf);
+
+}
+.image {
+  display: flex; flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img{
+  padding: 10px;
+  grid-auto-flow: dense;
+  width: 40%; height: 40%;
+
+}
+body{
+  font-family: midevil;text-align: center;
+  
+      background-image: url('https://data.whicdn.com/images/225888058/original.gif');
+      background-size: cover;
+
+
+
+      height: 100vh;
+      padding:0;
+      margin:0;
+  }
+
+}
+  .image {
+display:flex;
+  justify-content: space around;
+}
